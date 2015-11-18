@@ -1,0 +1,689 @@
+.clearfix{
+  clear: both;
+}
+.study-network .container{
+  font-family: "Microsoft YaHei";
+  margin: 0 auto;
+}
+.clearfix{
+  clear: both;
+  outline: none;
+}
+/*header*/
+.study-network .header{
+  height : 105px;
+  background-color: #2b72e6;
+  width : 100%;
+}
+.study-network .header .top-banner{
+  width: 1200px;
+  height: 105px;
+  margin: 0 auto;
+}
+.study-network .top-logo{
+  vertical-align: middle;
+  width : 220px\9;
+  float: left;
+  display: block;
+  margin-top: 25px;
+}
+.study-network .study-banner{
+  background-color: #2b72e6;
+  height: 500px;
+  border-top: 1px solid #fff;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+          src='../img/logo.jpg',
+          sizingMethod='scale');
+}
+
+.study-network .study-nav{
+  float: left;
+  width : 900px;
+}
+.study-network .study-nav ul{
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 105px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.study-network .study-nav li{
+  font-size: 18px;
+  text-decoration: none;
+  list-style: none;
+  line-height: 105px;
+  list-style-type: none;
+  color: #fff;
+  display: inline-block;
+  float: left;
+  padding: 0 25px;
+}
+.study-network .study-nav .active{
+  border-bottom: 3px solid #fff;
+  padding-bottom: 34px;
+}
+.study-network .study-nav li a{
+  color: #fff;
+}
+.study-network .study-nav li a:hover{
+  text-decoration: none;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 34px;
+}
+/*导航*/
+.study-network .container h3{
+  font-size: 20px;
+  font-weight: normal;
+  color: #333;
+  margin-top: 30px;
+  display: block;
+}
+.study-network .study-menu{
+  width : 100%;
+  border-bottom: 1px solid #c3c3c3;
+}
+.study-network .study-menu ul{
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 80px;
+  float: left;
+}
+.study-network .study-menu ul li{
+  font-size: 18px;
+  text-decoration: none;
+  list-style: none;
+  line-height: 80px;
+  list-style-type: none;
+  display: inline-block;
+  float: left;
+  padding-right: 20px;
+}
+.study-network .study-menu .active{
+  border-bottom: 3px solid #2272f3;
+  padding-bottom: 28px;
+}
+.study-network .study-menu li a{
+  color: #333;
+}
+.study-network .study-menu li a:hover{
+  text-decoration: none;
+  border-bottom: 3px solid #2272f3;
+  padding-bottom: 28px;
+}
+.study-network .study-menu .icon-number{
+  float : right;
+}
+.study-network .study-menu .icon-number span{
+  padding-right: 5px;
+}
+.study-network .container .school-link{
+  line-height: 45px;
+  color: #7b838e;
+  float: right;
+}
+/*tab选项卡*/
+.study-network .program-main{
+  padding-top: 20px;
+}
+.study-network .program-main .program-text {
+  border: 1px solid #c3c3c3;
+  padding: 15px;
+}
+.study-network .program-main .program-text .program-card{
+  margin-bottom: 20px;
+}
+.study-network .program-main .program-text .program-card .card-bc{
+  background-color: #25d59b;
+  height: 130px;
+  width : 130px;
+  color : #fff;
+  font-size: 30px;
+  line-height: 130px;
+  text-align: center;
+  float : left;
+}
+.study-network .program-main .program-text .program-card .card-text{
+  padding-left: 145px;
+}
+.study-network .program-main .program-text .program-card .card-text h4{
+  margin : 0;
+  font-size: 20px;
+  padding-bottom: 15px;
+  padding-top: 3px;
+}
+.study-network .program-main .program-text .program-card .card-text p{
+  margin : 0;
+  font-size: 16px;
+  color : #7b838e;
+  line-height: 25px;
+}
+.study-network .program-main .program-sidebar {
+  border: 1px solid #c3c3c3;
+  height: 500px;
+}
+
+.study-network .guide-table{
+    text-align: center;
+}
+.study-network .guide-table .nav-tabs>li.active{
+  color: #f4645b;
+  border-radius: 0;
+  background-color: #fff;
+}
+.study-network .guide-table .nav-tabs>li>a{
+  color: #333;
+  border-radius: 0;
+  border:none;
+  margin-right: 0;
+  line-height: normal;
+  float: left;
+}
+.study-network .guide-table .nav-tabs .active>a{
+  color: #f4645b;
+  border-radius: 0;
+  border:none;
+  background-color: #fff;
+  margin-right: 0;
+  line-height: normal;
+  font-weight: bold;
+}
+.study-network .guide-table .nav-tabs>li.active>a:hover{
+  color: #f4645b;
+  border-radius: 0;
+  border:none;
+  background-color: #fff;
+}
+.study-network .guide-table .nav-tabs {
+    border-bottom: none;
+    margin-bottom: 5px;
+    background-color: #e9e9e9;
+    height: 70px;
+}
+.study-network .guide-table .nav-tabs>li.active>a:focus{
+    color: #f4645b;
+    border-radius: 0;
+    border:none;
+    background-color: #fff;
+    border-top: 3px solid red;
+    padding-top: 10px;
+}
+.study-network .guide-table .nav>li>a:focus,.guide-table .nav>li>a:hover{
+    background-color: #fff;
+}
+.study-network .guide-table .nav>li>a{
+    padding: 0 15px 10px 0;
+    font-size: 18px;
+    background-color: #e9e9e9;
+}
+.study-network .study-recommend{
+    margin-bottom: 30px;
+}
+.study-network .study-text{
+  display: block;
+  height: 50px;
+  float: left;
+}
+.study-network .study-text h3{
+  font-size: 22px;
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
+  float : left;
+  line-height : 40px;
+  margin: 0;
+}
+.study-network .study-text .text-img{
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+  margin-top: 10px;
+}
+.study-network .study-text span{
+  font-size: 28px;
+  color: #ff772b;
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+  padding-top: 2px;
+}
+.study-network .btn :hover{
+  text-decoration: none;
+}
+.study-network .study-recommend .penple-img{
+  width : 33%;
+  float: left;
+}
+.study-network .study-button{
+  margin:10px 0 0 5px;
+}
+.study-network .study-button .green-border {
+  color: #25d59b;
+  font-size: 14px;
+  border-radius: 999px;
+  border: 1px solid #25d59b;
+  padding: 2px 10px;
+  display: inline-block;
+  zoom: 1;
+  *display : inline;
+}
+.study-network .study-button .blue-border{
+  color: #64b3f1;
+  font-size: 14px;
+  border-radius: 999px;
+  border: 1px solid #64b3f1;
+  padding: 2px 10px;
+  display: inline-block;
+  zoom:1;
+  *display : inline;
+  margin-left: 6px;
+}
+.study-network .study-button .orange-border{
+  color: #ffc618;
+  font-size: 14px;
+  border-radius: 999px;
+  padding: 2px 10px;
+  border: 1px solid #ffc618;
+  display: inline-block;
+  zoom:1;
+  *display : inline;
+  margin-left: 6px;
+
+}
+.study-network .study-button .p-text{
+  /*padding-top: 7px;*/
+}
+.study-network .study-button p{
+  color: #7b838e;
+  font-size: 14px;
+}
+.study-network .btn-main{
+  float: left;
+  width : 16.67%;
+}
+.study-network .study-recommend .massage-card{
+  float: left;
+  width : 50%;
+}
+.study-network .btn-main .btn-orange{
+  background-color: #ffb139;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 6px 26px;
+  border-radius: 5%;
+  margin-top: 50px;
+  display: block;
+}
+.study-network .btn-main .btn-blue{
+  background-color: #64b3f1;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 6px 26px;
+  border-radius: 5%;
+  margin-top: 30px;
+  display: block;
+}
+.study-network .success-case .case-more{
+  height: 45px;
+}
+.study-network #t4{
+  margin-top: 30px;
+}
+.study-network .schools-recommended .case-more{
+  height: 45px;
+}
+.study-network .experts-recommend .case-more{
+  height: 45px;
+}
+.study-network .success-case .tap-bg{
+  background-image: url(../img/b-r.png);
+  background-repeat: no-repeat;
+  height: 350px;
+  position: relative;
+  float: left;
+  width : 33%;
+}
+.study-network .success-case h3{
+  display: inline-block;
+  margin: 0;
+  line-height: 45px;
+  float : left;
+}
+.study-network .tap-canter .tx-img{
+  width: 70px;
+  margin: 0 auto;
+  position: absolute;
+  top: 9px;
+  left: 38%;
+}
+.study-network .tap-canter h4{
+  font-size: 20px;
+  text-align: center;
+  color: #383d49;
+  padding-top: 80px;
+  font-weight: normal;
+}
+.study-network .tap-canter p{
+  font-size: 14px;
+  color: #333333;
+  margin: 0;
+  padding-left: 50px;
+}
+.study-network .tap-canter span{
+  font-size: 18px;
+  text-align: center;
+  color: #383d49;
+}
+.study-network .tap-canter p>a{
+  font-size: 18px;
+  text-align: center;
+  color: #383d49;
+}
+.study-network .tap-right{
+  color: #7b838e;
+  padding-top: 12px;
+}
+.study-network .tap-right span{
+  width: 70px;
+  float: left;
+}
+.study-network .tap-right p{
+  width: 72%;
+  float: left;
+  margin: 0;
+}
+
+.study-network .thames-rankings{
+  margin-bottom: 30px;
+}
+.study-network .thames-rankings .carousel-control{
+  text-shadow: 0 1px 8px rgba(0,0,0,0.7);
+}
+.study-network .thames-rankings .carousel-control.left{
+  background-image: none;
+  background-repeat: no-repeat;
+}
+.study-network .thames-rankings .carousel-control.right{
+  background-image: none;
+  background-repeat: no-repeat;
+}
+.study-network .thames-rankings .carousel-control .glyphicon-chevron-left{
+  left: 10%;
+}
+.study-network .thames-rankings .carousel-control .glyphicon-chevron-right{
+  right: 10%;
+}
+.study-network .thames-rankings .carousel-caption{
+  position: static;
+  text-shadow: none;
+  padding-bottom: 0;
+  padding: 0;
+}
+
+.study-network .thames-rankings .school-list{
+  /*height: 350px;*/
+}
+.study-network .thames-rankings .school-list ul{
+  float: left;
+  text-align: left;
+  display: inline-block;
+  padding-left: 28px;
+  padding-right: 15px;
+  border-right: 1px solid #e8e8e8;
+}
+.study-network .thames-rankings .school-list ul:nth-child(4){
+  border-right: none;
+}
+.study-network .thames-rankings .school-list ul li{
+  list-style-type: none;
+  color: #333333;
+  font-size: 18px;
+  line-height: 30px;
+}
+.study-network .thames-rankings .school-list ul li span{
+  color: #ff7200;
+  padding-right: 20px;
+}
+.study-network .thames-rankings .school-list ul li a{
+  color: #333333;
+}
+
+/*滚动条*/
+.study-network .thames-rankings .carousel .carousel-indicators{
+  bottom: -35px;
+
+}
+.study-network .thames-rankings .carousel .carousel-indicators li{
+  border: 2px solid #ff7200;
+
+}
+.study-network .experts-recommend h3{
+  display: inline-block;
+  margin: 0;
+  line-height: 45px;
+}
+.study-network .experts-recommend .case-more h3{
+  display: inline-block;
+  margin: 0;
+  line-height: 45px;
+  float: left;
+}
+.study-network .experts-recommend .experts h3{
+  font-size: 22px;
+  color: #383d49;
+  text-align: center;
+  display: block;
+}
+.study-network .experts-recommend .experts h3>a{
+  color: #383d49;
+}
+.study-network .experts-recommend .experts p{
+  font-size: 16px;
+  color: #7b838e;
+  text-align: center;
+  display: block;
+  margin: 0;
+}
+.study-network .experts-recommend .experts {
+  text-align: center;
+  float: left;
+  width : 25%;
+}
+.study-network .btn-new .btn-orange{
+  background-color: #ffb139;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 15px;
+  border-radius: 999px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+
+}
+.study-network .btn-new .btn-blue{
+  background-color: #64b3f1;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 15px;
+  border-radius: 999px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 5px;
+
+}
+.study-network .advantage{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.study-network .advantage .col-md-4{
+  width : 33%;
+  float: left;
+}
+.study-network .advantage h4{
+  font-weight: normal;
+  color: #383d49;
+  margin-top: 30px;
+}
+.study-network .advantage p{
+  color: #7b838e;
+  text-align: left;
+  width: 240px;
+  margin: 0 auto;
+}
+.study-network .yx-border{
+  border: 1px solid #e5e5e5;
+  height: 126px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.study-network .yx-border h4{
+  font-weight: normal;
+  color: #333;
+  margin-top: 30px;
+}
+.study-network .yx-border h4>a{
+  font-weight: normal;
+  color: #333;
+  margin-top: 30px;
+}
+.study-network .yx-border p{
+  color: #7b838e;
+  margin: 0;
+  line-height: 16px;
+}
+.study-network .schools-recommended h3{
+  display: inline-block;
+  margin: 0;
+  line-height: 45px;
+  float : left;
+}
+.study-network .schools-recommended .schools-main {
+  margin-bottom: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.study-network .schools-recommended .schools-main .col-md-4{
+  padding-right: 0;
+  padding-left: 0;
+  float: left;
+  width : 33.33%;
+  height: 126px;
+}
+.study-network .schools-recommended .schools-main .yx-border .col-md-4{
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.study-network .school-img{
+  display: inline-block;
+  float: left;
+}
+.study-network .school-text{
+  margin: 15px 0 24px 0;
+  display: inline-block;
+  float: left;
+}
+.study-network .experience-center .form-text {
+  display: inline-block;
+  height: 35px;
+}
+.study-network .experience-center .form-control{
+  display: inline-block;
+  width: 260px;
+  border-radius: 0;
+  height: 35px;
+}
+.study-network .experience-center .btn-red a{
+  color: #fff;
+  border-radius: 3px;
+  background-color: #ff7066;
+  padding: 9px 19px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+.study-network .btn-input{
+  width: 535px;
+  margin: 0 auto;
+}
+.study-network .map-img{
+  background-image: url(../img/map.png);
+  background-repeat: no-repeat;
+  display: block;
+  height: 700px;
+  position: relative;
+}
+.study-network .experience-center .map-img a{
+  color: #383d49;
+  font-size: 18px;
+  border-radius: 2px;
+  position: absolute;
+  top: 175px;
+  right: 310px;
+}
+.study-network .image-carousel.carousel-inner>.item>img, .carousel-inner>.item>a>img{
+  height: 100%!important;
+}
+.study-network .popover {
+  position: absolute;
+  top: 0;
+  right: 2px;
+  z-index: 1060;
+  display: none;
+  max-width: 276px;
+  padding: 1px;
+  text-align: left;
+  white-space: normal;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  /*border: 1px solid #ccc;*/
+  /*border: 1px solid rgba(0,0,0,.2);*/
+  border-radius: 2px;
+  /*-webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);*/
+  /*box-shadow: 0 5px 10px rgba(0,0,0,.2);*/
+}
+.study-network .footer{
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: #fafafa;
+  color: #808080;
+}
+.study-network .footer .wrapper p{
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+.study-network .footer .wrapper a{
+  font-size: 14px;
+  padding-left: 30px;
+  color: #808080;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

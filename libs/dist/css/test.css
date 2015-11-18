@@ -1,0 +1,15 @@
+.row{
+  height: 600px;
+}
+.left{
+  background-color: red;
+  height: 600px;
+}
+.right1{
+  background-color: yellow;
+  height: 300px;
+}
+.right2{
+  background-color: gray;
+  height: 300px;
+}
