@@ -1,0 +1,503 @@
+body {
+    font-family: Microsoft YaHei, 微软雅黑, 宋体, Arial, Tahoma, Helvetica, sans-serif;
+}
+
+.tabbable-customize {
+    border: 1px solid #eeeeee;
+}
+
+.tabbable-customize .nav-tabs {
+    display: inline-block;
+    vertical-align: top;
+    width: 340px;
+}
+
+.tabbable-customize .nav-tabs li {
+    clear: both;
+    border-bottom: 1px solid #eeeeee;
+    width: 339px;
+    text-align: center;
+}
+
+.tabbable-customize .tab-content {
+    display: inline-block;
+    width: 790px;
+    max-height: 1050px;
+    overflow: scroll;
+}
+
+.tabbable-customize .nav-tabs > li > a,
+.tabbable-customize .nav-tabs > li.active > a:hover,
+.tabbable-customize .nav-tabs > li.active > a:focus {
+    border-radius: 0;
+    border: 1px solid #eeeeee;
+    border-top: none;
+    border-left: 2px solid #eeeeee;
+    background: #fcfcfc;
+    position: relative;
+    left: -1px;
+    color: inherit;
+    width: 340px;
+}
+
+.tabbable-customize .nav-tabs > li:last-child > a {
+    border-bottom: none !important;
+}
+
+.tabbable-customize .nav-tabs > li.active > a,
+.tabbable-customize .nav-tabs > li.active > a:hover,
+.tabbable-customize .nav-tabs > li.active > a:focus {
+    background: #ffffff;
+    color: #e13124;
+    border-left-color: #e13124;
+    border-right-color: transparent;
+    left: -1px;
+}
+
+.well-customize {
+    /* padding: 10px; */
+    margin: 10px;
+    border-color: transparent;
+    background: #fbfbfb;
+}
+
+.tabbable-customize .row {
+    text-align: center;
+}
+
+.tabbable-customize .media-body {
+    text-align: left;
+    padding-top: 9px;
+}
+
+.tabbable-customize .tab-pane .header-customize {
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    padding: 0 !important;
+}
+
+.tabbable-customize .tab-pane .row {
+    margin: 0 10px 0;
+}
+
+.tabbable-customize .rows-customize .row {
+    border-bottom: 1px solid #eeeeee;
+    padding: 20px 0;
+}
+
+.tabbable-customize .rows-customize .row:last-child {
+    border-bottom: none;
+}
+
+.au-school-ranking {
+    font-size: 30px;
+    color: #e13124;
+    line-height: 83px;
+}
+
+.au-school-btns {
+    margin: 25px 0;
+}
+
+.au-school-btns a {
+    border-radius: 35px;
+}
+
+.au-school-btns a:first-child {
+    margin-right: 8px;
+}
+
+.au-school-more {
+    line-height: 83px;
+}
+
+.au-school-circle {
+    border: 1px solid #eeeeee;
+    padding: 20px;
+}
+
+.au-school-circle h3 {
+    margin: 0 0 30px !important;
+}
+/*copy*/
+.au-school-circle > ul {
+    position: relative;
+    width: 1000px;
+    height: 530px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.au-school-circle > ul .after {
+    position: absolute;
+    border: 2px solid #bee6f9;
+    width: 790px;
+    height: 790px;
+    border-radius: 50%;
+    left: 100px;
+    top: 100px
+}
+
+.au-school-circle > ul li {
+    font-size: 16px;
+    z-index: 100
+}
+
+.au-school-circle > ul .description {
+    display: none
+}
+
+.au-school-circle > ul.circle .description {
+    position: absolute;
+    left: 500px;
+    width: 500px;
+    margin-left: -250px;
+    top: 300px;
+    display: block
+}
+
+.au-school-circle > ul.circle .description h3 br, .au-school-circle > ul.circle li div.detail {
+    display: none
+}
+
+.au-school-circle > ul.circle .description h3 {
+    font-size: 20px
+}
+
+.au-school-circle > ul.circle .description p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #484848
+}
+
+.au-school-circle > ul.circle li {
+    position: absolute;
+    cursor: pointer;
+    list-style: none;
+}
+
+.au-school-circle > ul.circle li div.title {
+    width: 120px;
+    text-align: center;
+    position: absolute
+}
+
+.au-school-circle > ul.circle li i.icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #bee6f9;
+    background: #FFF;
+    color: #89c1f5;
+    transition: .2s;
+    padding: 12px 13px;
+    font-size: 40px;
+    z-index: 100;
+    display: block;
+    margin-left: -35px;
+    margin-top: -25px
+}
+
+.au-school-circle > ul.circle li i.icon:hover, .au-school-circle > ul.circle li.active i.icon {
+    background: #64b3f1;
+    color: #FFF
+}
+
+.au-school-circle > ul.circle li:nth-child(1) .title, .au-school-circle > ul.circle li:nth-child(2) .title {
+    top: 0;
+    left: -150px
+}
+
+.au-school-circle > ul.circle li:nth-child(3) .title {
+    left: -210px;
+    top: -10px;
+    width: 180px
+}
+
+.au-school-circle > ul.circle li:nth-child(4) .title {
+    top: -70px;
+    left: -90px;
+    width: 180px
+}
+
+.au-school-circle > ul.circle li:nth-child(5) .title {
+    top: -70px;
+    left: -80px;
+    width: 180px
+}
+
+.au-school-circle > ul.circle li:nth-child(6) .title, .au-school-circle > ul.circle li:nth-child(7) .title, .au-school-circle > ul.circle li:nth-child(8) .title {
+    top: -10px;
+    left: 35px;
+    width: 150px
+}
+
+.au-school-circle > ul.circle li i.icon:before {
+    position: relative;
+    top: -8px;
+}
+
+.au-school-circle .sidebar-customize .items > div {
+    /* list-style: none; */
+    padding-left: 33px;
+    background: url("img/au-nums.png") no-repeat -3px 9px;
+    line-height: 46px;
+}
+
+.au-school-circle .sidebar-customize .items > div:nth-child(2) {
+    background: url("img/au-nums.png") no-repeat -3px -40px;
+}
+
+.au-school-circle .sidebar-customize .items > div:nth-child(3) {
+    background: url("img/au-nums.png") no-repeat -3px -82px;
+}
+
+.au-school-circle .sidebar-customize .items > div:nth-child(4) {
+    background: url("img/au-nums.png") no-repeat -3px -128px;
+}
+
+.au-school-circle .sidebar-customize .items > div:nth-child(5) {
+    background: url("img/au-nums.png") no-repeat -3px -174px;
+}
+
+.au-fee .nav-tabs>li.active>a,
+.au-fee .nav-tabs>li.active>a:focus,
+.au-fee .nav-tabs>li.active>a:hover{
+    border: none !important;
+    position: relative;
+}
+
+.au-fee .nav-tabs>li.active>a .after,
+.au-fee .nav-tabs>li.active>a:focus .after,
+.au-fee .nav-tabs>li.active>a:hover .after {
+    position: absolute;
+    width: 56px;
+    height: 2px;
+    background: #e13124;
+    top: 38px;
+    left: 15px;
+}
+.au-fee .nav-tabs>li:last-child.active>a .after,
+.au-fee .nav-tabs>li:last-child.active>a:focus .after,
+.au-fee .nav-tabs>li:last-child.active>a:hover .after {
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    background: #e13124;
+    top: 38px;
+    left: 15px;
+}
+.au-fee .nav-tabs>li>a {
+    border: none;
+    color: inherit;
+    background: transparent;
+}
+.au-fee .nav>li>a:focus,
+.au-fee .nav>li>a:hover {
+    background: inherit;
+    color: inherit;
+}
+
+.au-fee .li-customize {
+    margin: 0 90px 0 0;
+    padding: 0;
+}
+
+.au-fee .li-customize>h3 {
+    padding: 0;
+    margin: 11px 0 0;
+}
+
+.au-fee .tab-content .small {
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+.au-fee .tab-content .table-container {
+    padding: 0 90px;
+}
+
+.au-fee, .au-living-fee {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.au-living-fee-imgs {
+    margin: 50px 0;
+    height: 172px;
+    background: url("img/au-living-fee.png") no-repeat center;
+}
+
+.au-apply-cases .row .col-md-3 {
+    background: url("img/case-bg.png") no-repeat center;
+    height: 367px;
+}
+
+.shool-logo {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.shool-logo img {
+    height: 78px;
+}
+
+.au-apply-cases {
+   border: 1px solid #eeeeee; 
+   padding: 20px;
+}
+
+.au-apply-cases h4 {
+    text-align: center;
+    line-height: 40px;
+}
+
+.au-apply-cases .link_container {
+    text-align: center;
+}
+
+.au-apply-cases .row {
+    line-height:55px;
+    margin:0;
+}
+
+.au-apply-cases .row .col-md-4 {
+    padding-right:0;
+}
+
+
+.au-apply-cases .row .col-md-8 {
+    text-align:center;
+}
+
+.au-apply-cases h3 {
+    margin: 0 0 30px !important;
+}
+
+.au-apply-cases h3 .small {
+    font-size: 16px;
+}
+
+.au-shoolarship .small {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.au-shoolarship .col-md-9 table tr td {
+    line-height: 30px;
+    padding: 20px;
+}
+
+.au-shoolarship .col-md-9 table tr td:first-child {
+    min-width: 155px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.au-shoolarship .col-md-3 .link-container {
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.au-shoolarship .col-md-3 table {
+    text-align: center;
+
+}
+
+.au-shoolarship .col-md-3 table tr td {
+    border: none;
+    line-height: 25px;
+}
+
+.au-shoolarship .col-md-3 table td span {
+    color: #ff612c;
+}
+
+.au-shoolarship .btn-container {
+    text-align: center;
+}
+
+.au-shoolarship .btn-container .btn-customize {
+    border-radius: 35px;
+    margin-bottom: 7px;
+}
+
+.btn-customize {
+    border-radius: 35px;
+}
+
+.form-customize {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+.form-customize input {
+    margin : 0 3px 0;
+}
+
+.form-customize button {
+    margin: 0 0 0 3px
+}
+
+.container-customize {
+    padding: 7px 0 0;
+    height: 80px;
+    text-align: center;
+    background: #f8f8f8;
+}
+
+.s-joinus-wrapper {
+    width: 100%;
+    background: url(img/joinus.png) center no-repeat;
+    background-size: cover;
+}
+
+.s-joinus {
+    margin: 0 auto;
+    height: 200px;
+}
+
+.s-joinus h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 200px;
+    color: white;
+}
+
+.s-joinus h3 > span {
+    color: #ff612c;
+}
+
+.s-joinus .s-to-start {
+    padding: 0 60px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 46px;
+    line-height: 46px;
+    background: #f78e87;
+    box-shadow: 0 1px #e76257;
+}
+
+.s-joinus .s-to-start:hover {
+    background: #e76257;
+    box-shadow: #c43b30;
+}
+
+.close-customize {
+    top: 7px !important;
+    right: 121px !important;
+}
+
+.au-fee-all-stuff {
+    border: 1px solid #eeeeee;
+    padding: 20px;
+}
