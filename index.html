@@ -4,13 +4,8 @@
     <title>留学网</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<<<<<<< Updated upstream
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-=======
-    <link rel="stylesheet" type="text/css" href="libs/dist/css/bootstrap.min.css">
-    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
->>>>>>> Stashed changes
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/docs.min.css">
     <link rel="stylesheet" href="shunicon/iconfont.min.css"/>
@@ -543,14 +538,6 @@
         </div>
         <div class="favorable-comment"> <!-- 客户好评 -->
             <h3>客户好评</h3>
-<<<<<<< Updated upstream
-            <div class="study-line">
-                <span></span>
-            </div>
-
-          </div>
-=======
-
             <div class="study-line">
                 <span></span>
             </div>
@@ -604,7 +591,6 @@
                 </a>
             </div>
         </div>
->>>>>>> Stashed changes
         <div id="t4" class="experts-recommend"> <!-- 专家推荐 -->
             <div class="case-more">
                 <h3>优秀留学专家推荐</h3>
@@ -1441,18 +1427,20 @@
 
 </script>
 
-<script type="text/javascript" src="libs/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script type="text/javascript">
     //slide
-    +function ($) {
-        $.fn.carousel.Constructor.prototype.pause = function (e) {
-            e || (this.paused = true);
-            if (this.$element.find('.next, .prev').length && $.support.transition) {
-                this.$element.trigger($.support.transition.end);
-                this.cycle(true)
-            }
-<<<<<<< Updated upstream
-        }(jQuery);
+//    +function ($) {
+//        $.fn.carousel.Constructor.prototype.pause = function (e) {
+//            e || (this.paused = true);
+//            if (this.$element.find('.next, .prev').length && $.support.transition) {
+//                this.$element.trigger($.support.transition.end);
+//                this.cycle(true);
+//                this.interval = clearInterval(this.interval);
+//                return this;
+//            }
+//        }
+//    }(jQuery);
     </script>
 
 <script>
@@ -1484,12 +1472,6 @@
             intervalToken = setInterval(activateLi, interval);
         });
     })();
-=======
-            this.interval = clearInterval(this.interval);
-            return this
-        }
-    }(jQuery);
->>>>>>> Stashed changes
 </script>
 </body>
 </html>
