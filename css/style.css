@@ -111,7 +111,7 @@
   padding-bottom: 28px;
 }
 .study-network .study-menu .icon-number{
-  padding-left: 60px;
+  padding-left: 56px;
 }
 .study-network .study-menu .icon-number span{
   padding-right: 5px;
@@ -777,7 +777,6 @@
   /*box-shadow: 0 5px 10px rgba(0,0,0,.2);*/
 }
 .study-network .footer{
-  margin-top: 80px;
   padding-top: 25px;
   padding-bottom: 20px;
   background: #216eeb;
