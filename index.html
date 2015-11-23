@@ -1411,15 +1411,15 @@
 <script>
     // au-school-circle ul li
     (function(){
-        $('.au-school-circle>ul').addClass('circle');
-        $.each($('.au-school-circle>ul>li'), function(key, li) {
+        $('.au-school-circle ul').addClass('circle');
+        $.each($('.au-school-circle ul li'), function(key, li) {
             var el = $(li), r = 395, offsetX = 100, offsetY = 485, angle = 180 / 7;
             el.css('top', offsetY - Math.sin(key * angle / 180 * Math.PI) * r + 'px');
             el.css('left', r - Math.cos(key * angle / 180 * Math.PI) * r + offsetX + 'px');
         });
         var interval = 3000, currentActiveIndex = 0, descriptionEl = $('.description');
         var activateLi = function () {
-            $('.au-school-circle>ul>li').removeClass('active');
+            $('.au-school-circle ul li').removeClass('active');
             var activeEl = $('.au-school-circle ul li:nth-child('+(currentActiveIndex+1)+')');
             activeEl.addClass('active');
             currentActiveIndex = (currentActiveIndex + 1) % 8;
@@ -1428,12 +1428,12 @@
         };
         var intervalToken = setInterval(activateLi, interval);
         activateLi();
-        $('.au-school-circle>ul>li').on('mouseenter', function() {
-            currentActiveIndex = $('.au-school-circle>ul>li').index(this);
+        $('.au-school-circle ul li').on('mouseenter', function() {
+            currentActiveIndex = $('.au-school-circle ul li').index(this);
             clearInterval(intervalToken);
             activateLi();
         });
-        $('.au-school-circle>ul>li').on('mouseleave', function() {
+        $('.au-school-circle ul li').on('mouseleave', function() {
             intervalToken = setInterval(activateLi, interval);
         });
     })();
