@@ -192,7 +192,7 @@ body {
     border: 2px solid #bee6f9;
     background: #FFF;
     color: #89c1f5;
-    transition: .2s;
+    /*transition: .2s;*/
     padding: 12px 13px;
     font-size: 40px;
     z-index: 100;
