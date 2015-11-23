@@ -19,10 +19,14 @@ body {
     text-align: center;
 }
 
+.tabbable-customize .nav-tabs li:last-child {
+    border-bottom: none;
+}
+
 .tabbable-customize .tab-content {
     display: inline-block;
     width: 790px;
-    max-height: 1050px;
+    max-height: 1110px;
     overflow: auto;
 }
 
@@ -38,6 +42,13 @@ body {
     left: -1px;
     color: inherit;
     width: 340px;
+    height: 74px;
+    line-height: 53px;
+}
+
+.tabbable-customize .nav-tabs > li > a > span {
+    top: 21px;
+    color: #dedede;
 }
 
 .tabbable-customize .nav-tabs > li:last-child > a {
@@ -93,7 +104,7 @@ body {
 
 .au-school-ranking {
     font-size: 30px;
-    color: #e13124;
+    color: #ff612c;
     line-height: 83px;
 }
 
@@ -107,15 +118,28 @@ body {
 
 .au-school-btns a:first-child {
     margin-right: 8px;
+    height: 35px;
+    width: 125px;
+    background: #ffb139!important;
+    border-color: #ffb139!important;
+}
+
+.au-school-btns a:last-child {
+    height: 35px;
+    width: 125px;
+    background: #21d59b!important;
+    border-color: #21d59b!important;
 }
 
 .au-school-more {
     line-height: 83px;
+    padding: 0 5px 0 0;
 }
 
 .au-school-circle {
     border: 1px solid #eeeeee;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .au-school-circle h3 {
@@ -124,7 +148,7 @@ body {
 /*copy*/
 .au-school-circle > ul {
     position: relative;
-    width: 1000px;
+    width: 1050px;
     height: 530px;
     margin: auto;
     overflow: hidden;
@@ -134,13 +158,13 @@ body {
 .au-school-circle > ul .after {
     position: absolute;
     border: 2px solid #bee6f9;
-    width: 790px;
-    height: 790px;
+    width: 730px;
+    height: 730px;
     border-radius: 50%;
     behavior: url(/libs/PIE-2.0beta1/PIE.htc);
     behavior: url(/libs/PIE-2.0beta1/PIE.htc);
-    left: 100px;
-    top: 100px
+    left: 141px;
+    top: 131px
 }
 
 .au-school-circle > ul li {
@@ -195,7 +219,7 @@ body {
     border: 2px solid #bee6f9;
     background: #FFF;
     color: #89c1f5;
-    /*transition: .2s;*/
+    transition: .2s;
     padding: 12px 13px;
     font-size: 40px;
     z-index: 100;
@@ -241,6 +265,10 @@ body {
 .au-school-circle > ul.circle li i.icon:before {
     position: relative;
     top: -8px;
+}
+
+.au-school-circle .sidebar-customize {
+    padding-left: 40px;
 }
 
 .au-school-circle .sidebar-customize .items > div {
@@ -333,6 +361,10 @@ body {
     background: url("img/au-living-fee.png") no-repeat center;
 }
 
+.au-apply-cases {
+    margin-bottom: 40px;
+}
+
 .au-apply-cases .row .col-md-3 {
     background: url("img/case-bg.png") no-repeat center;
     height: 367px;
@@ -347,7 +379,7 @@ body {
     height: 78px;
 }
 
-.au-apply-cases {
+.au-apply-cases, .experts-recommend {
    border: 1px solid #eeeeee; 
    padding: 20px;
 }
@@ -375,8 +407,18 @@ body {
     text-align:center;
 }
 
-.au-apply-cases h3 {
+.au-apply-cases h3, .experts-recommend h3 {
     margin: 0 0 30px !important;
+}
+
+.experts-recommend h3 {
+    display: block!important;
+    line-height: 25px!important;
+}
+
+.experts-recommend h3 a {
+    position: relative;
+    top: 10px;
 }
 
 .au-apply-cases h3 .small {
@@ -430,6 +472,11 @@ body {
 
 .btn-customize {
     border-radius: 35px;
+    height: 35px;
+    width: 125px;
+    margin-top: 26px;
+    background: #ffb139!important;
+    border-color: #ffb139!important;
 }
 
 .form-customize {
@@ -452,6 +499,16 @@ body {
     background: #f8f8f8;
 }
 
+.register-box .form-customize input {
+    width: 90px!important;
+}
+
+.register-box .form-customize button {
+    width: 70px!important;
+    background: #ffb139!important;
+    border-color: #ffb139!important;
+}
+
 .s-joinus-wrapper {
     width: 100%;
     background: url(img/joinus.png) center no-repeat;
@@ -469,6 +526,7 @@ body {
     font-weight: 700;
     line-height: 200px;
     color: white;
+    margin: 0;
 }
 
 .s-joinus h3 > span {
@@ -503,4 +561,30 @@ body {
 .au-fee-all-stuff {
     border: 1px solid #eeeeee;
     padding: 20px;
+    margin: 20px 0;
+}
+
+.study-network .btn-new .btn-orange {
+    height: 32px!important;
+    line-height: 32px!important;
+    width: 87px!important;
+    text-decoration: none!important;
+    padding: 0!important;
+}
+
+.study-network .btn-new .btn-blue {
+    height: 32px!important;
+    line-height: 32px!important;
+    width: 87px!important;
+    text-decoration: none!important;
+    padding: 0!important;
+}
+
+.container-sp {
+    margin-top: 0 !important;
+}
+
+.study-network #t4 {
+    margin-top: 0!important;
+    margin-bottom: 20px;
 }

@@ -1,2 +1,0 @@
-# study-network
-study-network
