@@ -47,20 +47,20 @@
     </div>
     <div class="study-menu" id="mainNav1">     <!--id="mainNav1"-->
         <ul>
-            <li><a href="#" class="active">澳洲留学</a></li>
-            <li><a href="#">研究生</a></li>
-            <li><a href="#">本科</a></li>
-            <li><a href="#">中学</a></li>
-            <li><a href="#">院校排名 </a></li>
-            <li><a href="#">留学费用</a></li>
-            <li><a href="#">留学顾问推荐</a></li>
-            <li><a href="#">服务优势</a></li>
-            <li><a href="#">成功案例</a></li>
+            <li><a href="#au_undergraduate_nav" class="active">澳洲留学</a></li>
+            <li><a href="#au_undergraduate_nav">研究生</a></li>
+            <li><a href="#au_university_nav">本科</a></li>
+            <li><a href="#au_highschool_nav">中学</a></li>
+            <li><a href="#au_school_ranking">院校排名 </a></li>
+            <li><a href="#au_fee_all_stuff">留学费用</a></li>
+            <li><a href="#t4">留学顾问推荐</a></li>
+            <li><a href="#au_school_circle">服务优势</a></li>
+            <li><a href="#au_apply_cases">成功案例</a></li>
             <li class="icon-number" style="padding-right: 0;"><span><img src="img/phone.png"/></span>400-104-6660<span><img src="img/headset.png"/></span>立即咨询</li>
         </ul>
     </div>
     <div class="container">
-        <div class="row program-main">
+        <div id="au_undergraduate_nav" class="row program-main">
             <div class="col-md-9">
                 <div class="program-card clearfix">
                     <!--<div class="card-bc">-->
@@ -191,7 +191,7 @@
                 </div>
             </div>
         </div>
-        <div class="row program-main">
+        <div id="au_university_nav" class="row program-main">
             <div class="col-md-9">
                 <div class="program-card clearfix">
                     <!--<div class="card-bc">-->
@@ -320,7 +320,7 @@
                 </div>
             </div>
         </div>
-        <div class="row program-main">
+        <div id="au_highschool_nav" class="row program-main">
             <div class="col-md-9">
                 <div class="program-card clearfix">
                     <!--<div class="card-bc">-->
@@ -518,7 +518,7 @@
         <!--</div>-->
     </div>
     <div class="container container-sp">
-        <div class="tabbable tabbable-customize">
+        <div id="au_school_ranking" class="tabbable tabbable-customize">
             <ul class="nav nav-tabs">
                 <li class="active"><a href="#1" data-toggle="tab">QS澳大利亚大学世界综合排名 <span class="glyphicon glyphicon-menu-right pull-right"></span></a></li>
                 <li><a href="#2" data-toggle="tab">会计与金融专业排名 <span class="glyphicon glyphicon-menu-right pull-right"></span></a></li>
@@ -2116,7 +2116,7 @@
         </div>
         <!--澳洲留学费用大盘点-->
 
-        <div class="au-fee-all-stuff">
+        <div id="au_fee_all_stuff" class="au-fee-all-stuff">
             <div class="au-fee">
 
                 <!-- Nav tabs -->
@@ -2141,7 +2141,33 @@
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="au_highschool">
                         <p class="small text-muted">
-                            导语：QS世界大学排名是由教育组织Quacquarelli Symonds所发表的年度世界大学排名，是世界四大最具影响力的全球性大学排名之一。北大，清华，复旦与浙大分别位于46，48，88，153名（2013），位于前200的大学都属于世界顶尖学府。
+                            中学阶段，政府公立中学学费远低于私立中学。
+                        </p>
+                        <div class="table-container">
+                            <table class="table table-responsive table-bordered">
+                                <tr>
+                                    <td>（单位：人民币）</td>
+                                    <td>学费</td>
+                                </tr>
+                                <tr>
+                                    <td>政府公立中学</td>
+                                    <td>6-9万/年</td>
+                                </tr>
+                                <tr>
+                                    <td>普通私立中学</td>
+                                    <td>10-15万/年</td>
+                                </tr>
+                                <tr>
+                                    <td>顶级私立中学</td>
+                                    <td>18-25万/年</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p class="small text-muted">澳洲的本科学制沿袭英国教育体制，本科一般为三年。个别专业列有不同，如工科为四年，医科为5年。</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="au_college">
+                        <p class="small text-muted">
+                            在大学阶段，排名越高的大学学费也相对稍高一些，一线城市大学学费也略高于其他城市。而商科、工科的学费高于文科和理科，医学、药学类的专业学费要高于其它专业。
                         </p>
                         <div class="table-container">
                             <table class="table table-responsive table-bordered">
@@ -2152,20 +2178,73 @@
                                 </tr>
                                 <tr>
                                     <td>商科类</td>
-                                    <td>20万－25万／年</td>
-                                    <td>11万－15万／年</td>
+                                    <td>20-25万/年</td>
+                                    <td>11万-15万/年</td>
                                 </tr>
                                 <tr>
                                     <td>工科类（计算机)</td>
-                                    <td>15万－21万／年</td>
-                                    <td>12万－15万／年</td>
+                                    <td>15-21万/年</td>
+                                    <td>12万-15万/年</td>
+                                </tr>
+                                <tr>
+                                    <td>人文科学类</td>
+                                    <td>13-17万/年</td>
+                                    <td>10-12万/年</td>
+                                </tr>
+                                <tr>
+                                    <td>理科类</td>
+                                    <td>13-16万/年</td>
+                                    <td>10-13万/年</td>
+                                </tr>
+                                <tr>
+                                    <td>医学类</td>
+                                    <td>25万以上／年</td>
+                                    <td>20万以上／年</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p class="small text-muted">澳洲的本科学制沿袭英国教育体制，本科一般为三年。个别专业略有不同，如工科为四年，医科为五年。</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="au_undergraduate">
+                        <p class="small text-muted">
+                            一般来讲，澳洲研究生的学费和本科一样，根据学校排名地理位置以及专业不同，学费也会有差别，总体来说，在澳洲读研究生学费要别本科学费略高一些。
+                        </p>
+                        <div class="table-container">
+                            <table class="table table-responsive table-bordered">
+                                <tr>
+                                    <td>（单位：人民币）</td>
+                                    <td>澳洲八大名校</td>
+                                    <td>其他大学</td>
+                                </tr>
+                                <tr>
+                                    <td>商科类</td>
+                                    <td>18-22万/年</td>
+                                    <td>12-16万/年</td>
+                                </tr>
+                                <tr>
+                                    <td>工科类（计算机)</td>
+                                    <td>15-23万/年</td>
+                                    <td>12-16万/年</td>
+                                </tr>
+                                <tr>
+                                    <td>人文科学类</td>
+                                    <td>14-18万/年</td>
+                                    <td>10-13万/年</td>
+                                </tr>
+                                <tr>
+                                    <td>理科类</td>
+                                    <td>14-16万/年</td>
+                                    <td>10-14万/年</td>
+                                </tr>
+                                <tr>
+                                    <td>医学类</td>
+                                    <td>26万以上/年</td>
+                                    <td>20万以上/年</td>
                                 </tr>
                             </table>
                         </div>
                         <p class="small text-muted">澳洲的本科学制沿袭英国教育体制，本科一般为三年。个别专业列有不同，如工科为四年，医科为5年。</p>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="au_college">.2..</div>
-                    <div role="tabpanel" class="tab-pane" id="au_undergraduate">.3..</div>
                 </div>
 
             </div>
@@ -2334,7 +2413,7 @@
         </div>
         <!--顺顺留学服务特色-->
 
-        <div class="au-school-circle">
+        <div id="au_school_circle" class="au-school-circle">
             <h3>
                 澳洲成功申请案例 <span class="small">顺顺的顾问服务过上千的澳大利亚留学生，成功率99%</span>
             </h3>
@@ -2473,7 +2552,7 @@
         <!--顺顺留学服务特色 end-->
 
         <!--澳洲成功申请案例-->
-        <div class="au-apply-cases" style="clear: right;">
+        <div id="au_apply_cases" class="au-apply-cases" style="clear: right;">
             <h3>
                 澳洲成功申请案例 <span class="small">顺顺的顾问服务过上千的澳大利亚留学生，成功率99%</span>
             </h3>
