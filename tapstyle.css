@@ -23,7 +23,7 @@ body {
     display: inline-block;
     width: 790px;
     max-height: 1050px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .tabbable-customize .nav-tabs > li > a,
@@ -137,6 +137,8 @@ body {
     width: 790px;
     height: 790px;
     border-radius: 50%;
+    behavior: url(/libs/PIE-2.0beta1/PIE.htc);
+    behavior: url(/libs/PIE-2.0beta1/PIE.htc);
     left: 100px;
     top: 100px
 }
@@ -189,6 +191,7 @@ body {
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    behavior: url(/libs/PIE-2.0beta1/PIE.htc);
     border: 2px solid #bee6f9;
     background: #FFF;
     color: #89c1f5;
