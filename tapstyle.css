@@ -176,6 +176,10 @@ body {
     display: none
 }
 
+.au-school-circle > ul .description h3 {
+    text-align: center;
+}
+
 .au-school-circle > ul.circle .description {
     position: absolute;
     left: 500px;
@@ -349,6 +353,10 @@ body {
 
 .au-fee .tab-content .table-container {
     padding: 0 90px;
+}
+
+.au-fee .tab-content .table-container tr td {
+    text-align: center;
 }
 
 .au-fee, .au-living-fee {
@@ -587,4 +595,29 @@ body {
 .study-network #t4 {
     margin-top: 0!important;
     margin-bottom: 20px;
+}
+
+.study-network .guide-table .nav-tabs li,
+.study-network .guide-table .nav-tabs>li.active {
+    padding: 0!important;
+}
+
+.study-network .tab-content .tab-pane h4 {
+    padding-top: 0!important;
+}
+
+.study-network .study-nav li a:hover {
+    opacity: 0.6;
+    border-bottom: none!important;
+}
+
+.study-network .study-menu li a:hover {
+    border-bottom: none!important;
+    color: #f4645b;
+}
+
+.study-network .study-menu .active {
+    border-bottom: 3px solid #f4645b!important;
+    padding-bottom: 25px!important;
+    color: #f4645b;
 }
