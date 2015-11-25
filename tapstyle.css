@@ -119,14 +119,14 @@ body {
 .au-school-btns a:first-child {
     margin-right: 8px;
     height: 35px;
-    width: 125px;
+    width: 95px;
     background: #ffb139!important;
     border-color: #ffb139!important;
 }
 
 .au-school-btns a:last-child {
     height: 35px;
-    width: 125px;
+    width: 120px;
     background: #21d59b!important;
     border-color: #21d59b!important;
 }
@@ -388,7 +388,7 @@ body {
 }
 
 .au-apply-cases, .experts-recommend {
-   border: 1px solid #eeeeee; 
+   border: 1px solid #eeeeee;
    padding: 20px;
 }
 
@@ -647,7 +647,6 @@ body {
 .media-custom-container .media-left img.media-object {
     width: 40px;
     height: 40px;
-
 }
 
 .media-custom-container .media-body h4 {
