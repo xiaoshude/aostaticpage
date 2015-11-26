@@ -602,9 +602,9 @@ body {
     padding: 0!important;
 }
 
-.study-network .tab-content .tab-pane h4 {
-    padding-top: 0!important;
-}
+/*.study-network .tab-content .tab-pane h4 {
+    /*padding-top: 0!important;*/
+/*}*/
 
 .study-network .study-nav li a:hover {
     opacity: 0.6;

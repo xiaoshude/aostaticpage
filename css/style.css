@@ -154,12 +154,18 @@
   color: #7b838e;
   line-height: 30px;
 }
-.study-network .program-main .program-card{
+.study-network .program-main .program-sp span{
+  font-size: 16px;
+  color: #f4645b;
+  line-height: 30px;
+}
+
+/*.study-network .program-main .program-card{
   background-image: url("../img/2.pic_hd.jpg");
   background-repeat: no-repeat;
   height: 190px;
   color : #fff;
-}
+}*/
 .study-network .program-main .program-card h1{
   font-size: 30px;
   font-weight: normal;
@@ -267,6 +273,12 @@
 .study-network .tab-content .tab-pane p{
     font-size: 16px;
     color : #7b838e;
+    line-height: 30px;
+    margin: 0;
+}
+.study-network .tab-content .tab-pane p>span{
+    font-size: 16px;
+    color : #f4645b;
     line-height: 30px;
     margin: 0;
 }
